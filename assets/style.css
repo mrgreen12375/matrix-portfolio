@@ -1,0 +1,96 @@
+body {
+    background-image: url("./images/background.png");
+    background-size: cover;
+    background-position: center;
+    color: green;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid green;
+    border-radius: 20px;
+    background-color: black;
+    height: 80px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.aside {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profileCard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid green;
+    border-radius: 20px;
+    background-color: black;
+    height: 200px;
+    width: 110%;
+    margin-top: 50px;
+}
+
+.profileCard img {
+    height: 150px;
+    border: 3px dashed green;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.profileContent {
+    position: relative;
+    bottom: 30px;
+}
+
+.profileContent h2 {
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 2px solid green;
+    margin-bottom: 10px;
+}
+
+.profileList {
+    display: flex;
+    align-items: center;
+}
+
+.profileList h3 {
+    margin: 0px;
+}
+
+.profileList h4 {
+    margin: 5px;
+}
+
+.contactCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border: 5px solid green;
+    border-radius: 20px;
+    width: 40%;
+    margin: 50px;
+}
+
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border: 5px solid green;
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 50%;
+}
+
+.projectList {
+    display: flex;
+    flex-wrap: wrap;
+}
