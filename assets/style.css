@@ -158,3 +158,44 @@ h1 {
     box-shadow: 0 0 50px rgba(21, 255, 0, 0.5);
     cursor: pointer;
 }
+
+@media screen and (max-width: 1000px) {
+    .aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profileCard {
+        margin: 40px 0px 40px 0px;
+    }
+
+    .contactCard {
+        display: none;
+    }
+
+    .projectCard {
+        width: 560px;
+        margin: 0px 0px 40px 0px;
+
+    }
+
+    .contactHidden {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        border: 5px solid green;
+        border-radius: 20px;
+        height: 200px;
+        width: 560px;
+        margin: 0px 0px 40px 0px;
+    }
+    
+    .contactHidden h2 {
+        font-size: 30px;
+        border-bottom: 2px solid green;
+        padding: 0px 50px;
+    }
+    
+}
