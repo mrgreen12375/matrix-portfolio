@@ -211,6 +211,10 @@ h1 {
         font-size: 12px;
         margin: 10px;
     }
+
+    .profileContent h2 {
+        font-size: 24px;
+    }
     
     .profileCard img {
         margin: 0px 0px 0px 10px;
@@ -228,5 +232,11 @@ h1 {
 
     .contactList a {
         margin: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .profileContent {
+        font-size: 7px;
     }
 }
