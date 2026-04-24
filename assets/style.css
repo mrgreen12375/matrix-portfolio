@@ -258,4 +258,8 @@ h1 {
     .profileContent {
         font-size: 8px;
     }
+
+    .resume a {
+        font-size: 10px;
+    }
 }
