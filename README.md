@@ -12,4 +12,4 @@ This project was to make an employee portfolio with a Matrix theme. Potential em
 
 - https://mrgreen12375.github.io/matrix-portfolio/
 
-- https://github.com/mrgreen12375/employee-portfolio
+- https://github.com/mrgreen12375/matrix-portfolio
